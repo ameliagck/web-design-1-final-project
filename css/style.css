@@ -112,6 +112,11 @@ nav a:hover, nav a:focus {
   flex-direction: column;
   text-align: center;
   color: #0E1215;
+  padding-bottom: 9em;
+}
+
+.work p {
+  padding-bottom: 3em;
 }
 
 .gallery {
@@ -134,19 +139,79 @@ nav a:hover, nav a:focus {
 .references {
   background-color: #0E1215;
   display: flex;
+  justify-content: space-evenly;
   color: white;
 }
 
+.references h3 {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.block {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-bottom: 9em;
+}
+
+.block p {
+  font-style: italic;
+}
+
+.block cite {
+  color: rgb(162, 162, 162);
+  font-style: normal;
+}
 
 .contact {
   background-color: white;
   display:flex;
+  justify-content: center;
   color: #0E1215;
   text-align: center;
+  padding-top: 3em;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact h2 {
+  font-size: 2.25em;
+}
+
+.socials {
+  padding-top: 4em;
+  padding-bottom: 9em;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1em;
+  height: auto;
+  width: 10%;
+}
+
+.instagram {
+  grid-column: 1;
+}
+
+.facebook {
+  grid-column: 2;
+}
+
+.twitter {
+  grid-column: 3;
+}
+
+.so-flex {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-  display:flex;
+  display: flex;
   background-color: #0E1215;
   color: white; 
   justify-content: center;
